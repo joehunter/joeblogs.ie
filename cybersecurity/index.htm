@@ -1,0 +1,509 @@
+﻿
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<link rel="icon" href="favicon.ico">
+	
+<style>
+
+hr.ex {
+    
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #999;
+}
+
+
+p.ex {
+    color: rgb(0,0,255);
+}
+
+
+  img.ex{
+    border: 2px #c0c0c0 solid; 
+  }
+
+</style>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>joehunter.ie | CyberSecurity</title>
+
+   <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript">var switchTo5x=true;</script>
+<script type="text/javascript" id="st_insights_js" src="http://w.sharethis.com/button/buttons.js?publisher=330639e3-8d46-4645-84fd-7f790c9546da"></script>
+<script type="text/javascript">stLight.options({publisher: "330639e3-8d46-4645-84fd-7f790c9546da", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+
+</head>
+
+<body>
+
+ <div class="container theme-showcase" role="main">
+
+<br/>
+
+<div class="panel panel-default">
+	<div class="panel-heading">
+
+		<h3 id="topLinks" style='color:#000000'>
+			<img src='./imgs/stanford_logo.png' width="100" height="100">&nbsp;Stanford&nbsp;Advanced&nbsp;Computer&nbsp;Security&nbsp;Certificate&nbsp;|&nbsp;Joe Hunter
+			</h3>
+
+	</div>
+	<div class="panel-body">
+
+		<a href="../index.html" class="btn btn-primary btn-sm">
+			<span class="glyphicon glyphicon-chevron-left"></span>&nbsp;back to joehunter.ie
+		</a>
+
+	<span class='st_sharethis' displayText='ShareThis'></span>
+	<span class='st_facebook' displayText='Facebook'></span>
+	<span class='st_twitter' displayText='Tweet'></span>
+	<span class='st_linkedin' displayText='LinkedIn'></span>
+	<span class='st_pinterest' displayText='Pinterest'></span>
+	<span class='st_email' displayText='Email'></span>
+
+<br/><br/>
+
+	</div>
+  </div>
+
+  <h4 style='color:green'>About</h4>
+ 
+  
+  <div class='well'>
+	  <p>
+		These are my notes from completing the <a href='https://online.stanford.edu/programs/stanford-advanced-computer-security-certificate' target='_blank'>Stanford Advanced Computer Security Program</a>
+		 </p>
+		
+
+		<table>
+			<tr>
+				
+				<td>
+					The video from Dr. Dan Boneh in Stanford, explains the applications and future for computer security.
+					<br/><br/>
+					
+					<iframe width="800" height="400" src="https://www.youtube.com/embed/yYdOHlMEaDA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					
+				</td>
+					
+			</tr>
+		
+			<tr>
+				
+				<td><br/>
+					The second video goes through some major breaches in recent years.
+					<br/><br/>
+					<iframe width="800" height="400" src="https://www.youtube.com/embed/V9agUAz0DwI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</td>
+			</tr>
+		</table>
+
+
+
+
+
+  </div>
+
+
+
+
+<div>
+
+	<h4 style='color:green'>Contents</h4>
+	<div class="well">
+	<ul>
+
+	<p><b>Links</b></p>
+	<li><p><a href="#0"><span class="glyphicon glyphicon-link"></span>&nbsp;Some links to website useful for getting to grips with cybersecurity</a></p></li>
+
+	<p><b>Tools</b></p>
+	<li><p><a href="#1"><span class="glyphicon glyphicon-link"></span>&nbsp;These are some of the tools of the trade</a></p></li>
+
+	<p><b>Books</b></p>
+	<li><p><a href="#2"><span class="glyphicon glyphicon-link"></span>&nbsp;Books used to supplement work on the course</a></p></li>
+
+	<p><b>Glossary</b></p>
+	<li><p><a href="#3"><span class="glyphicon glyphicon-link"></span>&nbsp;Some frequently used terms and their meanings</a></p></li>
+
+	<p><b>Nmap</b></p>
+	<li><p><a href="#4"><span class="glyphicon glyphicon-link"></span>&nbsp;Nmap cheatsheet containing most common commands and parameters</a></p></li>
+
+</ul>
+	</div>
+
+</div>
+
+<br></br>
+
+<img src="./imgs/current_trend_of_attacks.png">
+
+<br></br>
+
+
+<div id="0">
+<hr class="ex">
+<h4 style='color:green'><span class="glyphicon glyphicon-chevron-right"></span>&nbsp;Links
+</h4>
+<hr class="ex">
+
+<div>
+	
+	<ul>
+		<li>
+			<a href='https://www.hacksplaining.com/lessons' target='_blank'>Hacksplaining</a> is a great place to start, it demonstrates
+			on screen some of the most common vulnerabilities. 
+		</li>
+		<br/>
+
+		<li>
+			The Guardian <a href='https://www.theguardian.com/technology/2016/dec/15/passwords-hacking-hashing-salting-sha-2#:~:text=Salting%20is%20simply%20the%20addition,same%20salt%20for%20every%20password.' target='_blank'>
+				 have provided</a> a nice entry level description to the complexities of hashing, salting and SHA-2.
+		</li>
+		<br/>
+
+		<li>
+			<a href='https://owasp.org/www-project-top-ten/' target='_blank'>Top 10 Web Application Security Risks</a> Not sure which vulnerability to read about first? 
+			Check on the Open Web Application Security Project® (OWASP) curated list
+		</li>
+		
+		<br/>
+		<li>
+			<a href='https://bobby-tables.com/' target='_blank'>Bobby Tables: A guide to preventing SQL injection</a> This is excellent! Provides guidance for avoiding
+			SQL injection on various platforms/languages.
+		</li>
+
+
+		<br/>
+		<li>
+			The <a href='https://link.springer.com/referencework/10.1007/978-1-4419-5906-5' target='_blank'>Encyclopedia of Cryptography and Security</a> 
+			is an incredibly comprehensive guide to cryptography and information security.
+		</li>
+
+
+		
+		
+	</ul>
+
+</div>
+
+<br>
+<hr class="ex">
+<a href="#topLinks" class="btn btn-default btn-sm">
+	<span class="glyphicon glyphicon-chevron-up"></span>&nbsp;top
+</a>
+
+</div> <!-- end #0 -->
+
+
+<br/><br/><br/>
+
+
+<div id="1">
+	<hr class="ex">
+	<h4 style='color:green'><span class="glyphicon glyphicon-chevron-right"></span>&nbsp;Tools
+	</h4>
+	<hr class="ex">
+	
+	<div>
+		
+		<p>
+			Some of the tools of the trade.
+		</p>
+		<br/>
+		<table class='table table-bordered'>
+			<thead>
+				<td><b>Tool</b></td>
+				<td><b>Download</b></td>
+				<td><b>Description</b></td>
+			</thead>
+
+
+			<tr>
+				<td>BeEF</td>
+				<td><a href='https://beefproject.com/' target='_blank'>Click Here</a></a></td>
+				<td>The Browser Exploitation Framework (BeEF) is a penetration testing, or pen-testing, tool designed to provide effective client-side 
+					attack vectors and to exploit any potential vulnerabilities in the web browser.<br/>
+					Pluralsight have a great introduction to <a href='https://app.pluralsight.com/library/courses/getting-started-beef/table-of-contents' target='_blank'>
+					Getting Started With BeEF</a>
+				</td>
+			</tr>
+
+			<tr>
+				<td>bWapp</td>
+				<td><a href='http://www.itsecgames.com/' target='_blank'>Click Here</a></a></td>
+				<td>"An extremely buggy web app!"</td>
+			</tr>
+
+
+			<tr>
+				<td>Kali Linux</td>
+				<td>
+					<a href='https://www.kali.org/downloads/' target='_blank'>Click Here</a>
+				</td>
+				<td>If you need to install bWapp above then it is possible to download an image with it pre-installed.</td>
+			</tr>
+
+			<tr>
+				<td>Nmap</td>
+				<td>
+					<a href='https://nmap.org/' target='_blank'>Click Here</a>
+				</td>
+				<td>The best port scanner in the business. Hands down</td>
+			</tr>
+
+
+			<tr>
+				<td>Oracle VM Virtual Box</td>
+				<td>
+					<a href='https://www.virtualbox.org/wiki/Downloads' target='_blank'>Click Here</a>
+				</td>
+				<td>If you need to install bWapp above then it is possible to download an image with it pre-installed.</td>
+			</tr>
+
+
+		</table>
+
+
+		
+	
+	</div>
+	
+	<br>
+	<hr class="ex">
+	<a href="#topLinks" class="btn btn-default btn-sm">
+		<span class="glyphicon glyphicon-chevron-up"></span>&nbsp;top
+	</a>
+	
+	
+
+	</div> <!-- end #1 -->
+
+
+	
+	
+<br/><br/><br/>
+
+
+
+<div id="2">
+	<hr class="ex">
+	<h4 style='color:green'><span class="glyphicon glyphicon-chevron-right"></span>&nbsp;Books
+	</h4>
+	<hr class="ex">
+	
+	<div>
+		
+
+		<table class="table">
+			
+			<p>
+		  	<b>This is a curated list of books from some of the leading experts in the cyber security field:</b>
+		  	<a href='https://www.thesslstore.com/blog/the-best-cyber-security-books/' target='_blank'>
+		  		The 25 Best Cyber Security Books
+		  	</a>
+
+		  </p>
+
+		  <br/><br/>
+
+			<p>
+				These are some of the books recommended by the course.
+			</p>
+			<tbody>
+			  <tr>
+				<td>
+					<a href='https://www.amazon.co.uk/Foundations-Security-Every-Programmer-Experts/dp/1590597842' target='_blank'>
+						Foundations of Security: What Every Programmer Needs to Know</a> <br>this is the text used at the beginning of 
+						the Standord course and is written by Neil Daswani one of the main course contributers.
+
+				</td>
+				<td>
+					<img src='./imgs/FIS_BOOK.png'/>
+				</td>
+				
+			  </tr>
+			  <tr>
+				<td>
+					<img src='./imgs/gray_hat_hacking.png'/>
+					
+				</td>
+				<td>
+					<a href='https://www.amazon.co.uk/Gray-Hat-Hacking-Ethical-Handbook/dp/1260108414/ref=sr_1_1?dchild=1&keywords=Gray+Hat+Hacking%3A+The+Ethical+Hacker%27s+Handbook&qid=1600528426&s=books&sr=1-1' target='_blank'>
+						Gray Hat Hacking: The Ethical Hacker's Handbook, Fifth Edition </a><br> Not many tech books reach a second edition,
+						 this handbook is on its fifth! An invaluable reference book to have.
+
+				</td>
+				
+			  </tr>
+			  <tr>
+				<td>
+					<a href='https://www.amazon.co.uk/Codebreakers-Comprehensive-History-Communication-Internet/dp/0684831309/ref=sr_1_14?crid=1YRMYHESJ0UYQ&dchild=1&keywords=the+code+breakers&qid=1604516880&sprefix=the+code+brea%2Caps%2C193&sr=8-14' target='_blank'>
+						The Codebreakers: The Comprehensive History of Secret Communication from Ancient Times
+						to the Internet</a> <br>A very accessible entry point to cryptography by David Kahn.
+				</td>
+				<td>
+					<img src='./imgs/code_breakers.png' >					
+				</td>
+				
+			  </tr>
+			</tbody>
+		  </table>
+
+		  <br/>
+		  		
+	</div>
+	
+	<br>
+	<hr class="ex">
+	<a href="#topLinks" class="btn btn-default btn-sm">
+		<span class="glyphicon glyphicon-chevron-up"></span>&nbsp;top
+	</a>
+	
+
+	
+
+	</div> <!-- end #2 -->
+
+
+	<br/><br/><br/>
+
+
+	<div id="3">
+		<hr class="ex">
+		<h4 style='color:green'><span class="glyphicon glyphicon-chevron-right"></span>&nbsp;Glossary
+		</h4>
+		<hr class="ex">
+		
+		<div>
+			
+			<ul>
+				<li>
+					<b><a href='https://link.springer.com/referenceworkentry/10.1007%2F978-1-4419-5906-5_549'>Block Cipher</a></b>
+					For any given key k, a block cipher specifies an encryption algorithm for computing the n-bit ciphertext for a given n-bit plaintext, 
+					together with a decryption algorithm for computing the n-bit plaintext corresponding to a given n-bit ciphertext.
+				</li>
+				<br/>
+
+				<li>
+					<b><a href='https://www.sciencedirect.com/topics/computer-science/connectionless-protocol'>Connectionless Protocol</a></b>
+					No connection needs to be established between the source and destination before you transmit data.
+					DNS, TFTP, and many other protocols rely on UDP for their data transmission. UDP is a connectionless protocol. 
+				</li>
+				<br/>
+
+				<li>
+					<b><a href='https://docs.oracle.com/cd/E19620-01/805-4041/6j3r8iu2f/index.html#:~:text=Connection%2DOriented%20Protocols,taking%20place%2C%20then%20released%20afterwards.'>Connection Oriented Protocol</a></b>
+					It requires a logical connection to be established between the two processes before data is exchanged. 
+					The connection must be maintained during the entire time that communication is taking place, then released afterwards.
+					TCP is an example of a connection-oriented protocol. 
+				</li>
+				<br/>
+
+
+				<li>
+					<b><a href='https://link.springer.com/referenceworkentry/10.1007%2F978-1-4419-5906-5_487#:~:text=Definition,should%20be%20considered%20public%20knowledge.' target='_blank'>
+					Kerckhoffs' Principle</a></b> states that the security of a cryptosystem must lie in the choice of its keys only; 
+					everything else (including the algorithm itself) should be considered public knowledge.
+				</li>
+				
+
+				<br/>
+
+				<li>
+					A <b><a href='https://searchsecurity.techtarget.com/definition/message-authentication-code-MAC' target='_blank'>
+					message authentication code (MAC)</a></b> is a cryptographic checksum on data that uses a session key to detect both accidental and intentional modifications of the data..
+				</li>
+
+				
+
+
+				<br/>
+
+				<li>
+					<b><a href='https://link.springer.com/referenceworkentry/10.1007%2F0-387-23483-7_329#:~:text=A%20pseudorandom%20function%20is%20a,keys%20K%20and%20inputs%20x.' target='_blank'>
+						PRF</a></b>  A pseudorandom function is a deterministic function of a key and an input that is indistinguishable from a truly random function of the input.
+				</li>
+
+				<br/>
+
+				<li>
+					<b><a href='https://en.wikipedia.org/wiki/Pseudorandom_permutation' target='_blank'>
+						PRP</a></b>  In cryptography, a pseudorandom permutation (PRP) is a function that cannot be distinguished from a random permutation (that is, a permutation selected at random with uniform probability, from the family of all permutations on the function's domain) with practical effort.
+				</li>
+
+				
+
+				<br/>
+
+				<li>
+					<b><a href='https://en.wikipedia.org/wiki/Stream_cipher#:~:text=A%20stream%20cipher%20is%20a,digit%20of%20the%20ciphertext%20stream.' target='_blank'>
+						Stream cipher</a></b>  is a symmetric key cipher where plaintext digits are combined 
+						with a pseudorandom cipher digit stream (keystream). In a stream cipher, each plaintext digit is encrypted 
+						one at a time with the corresponding digit of the keystream, to give a digit of the ciphertext stream.
+				</li>
+
+
+				
+
+			</ul>
+		
+		</div>
+		
+		<br>
+		<hr class="ex">
+		<a href="#topLinks" class="btn btn-default btn-sm">
+			<span class="glyphicon glyphicon-chevron-up"></span>&nbsp;top
+		</a>
+		
+
+
+
+
+	<div id="4">
+		<hr class="ex">
+		<h4 style='color:green'><span class="glyphicon glyphicon-chevron-right"></span>&nbsp;Nmap
+		</h4>
+		<hr class="ex">
+		
+		<div>
+			
+
+			<br/><br/>
+				<embed src="./docs/nmapcheatsheet.pdf" type="application/pdf" width="100%" height="600px" />
+		
+		</div>
+		
+		<br>
+		<hr class="ex">
+		<a href="#topLinks" class="btn btn-default btn-sm">
+			<span class="glyphicon glyphicon-chevron-up"></span>&nbsp;top
+		</a>
+
+
+		
+	
+</div> <!-- end #3 -->
+
+
+
+</div> <!-- end div class="container theme-showcase" role="main" -->
+
+</body>
+</html>
+
+
